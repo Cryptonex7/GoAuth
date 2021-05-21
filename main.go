@@ -6,7 +6,7 @@ import (
 
 	"github.com/joho/godotenv"
 
-	"GoAuth/api/controllers"
+	"github.com/Cryptonex7/GoAuth/api/controllers"
 )
 
 func main() {

@@ -5,8 +5,9 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"GoAuth/api/models"
-	"GoAuth/api/responses"
+	"github.com/Cryptonex7/GoAuth/api/models"
+	"github.com/Cryptonex7/GoAuth/api/responses"
+	"github.com/Cryptonex7/GoAuth/utils"
 )
 
 func (a *App) UserSignUp(w http.ResponseWriter, r *http.Request) {

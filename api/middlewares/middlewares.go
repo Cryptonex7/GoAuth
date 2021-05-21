@@ -8,7 +8,7 @@ import (
 
 	jwt "github.com/dgrijalva/jwt-go"
 
-	"GoAuth/api/responses"
+	"github.com/Cryptonex7/GoAuth/api/responses"
 )
 
 // SetContentTypeMiddleware sets content-type to json

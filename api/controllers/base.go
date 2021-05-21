@@ -9,9 +9,9 @@ import (
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres" //postgres
 
-	"GoAuth/api/middlewares"
-	"GoAuth/api/models"
-	"GoAuth/api/responses"
+	"github.com/Cryptonex7/GoAuth/api/middlewares"
+	"github.com/Cryptonex7/GoAuth/api/models"
+	"github.com/Cryptonex7/GoAuth/api/responses"
 )
 
 type App struct {
@@ -52,5 +52,5 @@ func (a *App) RunServer() {
 }
 
 func home(w http.ResponseWriter, r *http.Request) { // this is the home route
-	responses.JSON(w, http.StatusOK, "Welcome To GoAuth")
+	responses.JSON(w, http.StatusOK, "Welcome To github.com/Cryptonex7/GoAuth")
 }
